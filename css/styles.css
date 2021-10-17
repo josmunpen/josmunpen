@@ -310,7 +310,7 @@ table {
 caption {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-  color: #6c757d;
+  color: #7d6c6c;
   text-align: left;
 }
 
@@ -624,7 +624,7 @@ progress {
 
 .figure-caption {
   font-size: 0.875em;
-  color: #6c757d;
+  color: #7d6c6c;
 }
 
 .container,
@@ -11387,7 +11387,7 @@ p.lead {
   margin-right: 0;
 }
 .social-icons .social-icon:hover {
-  background-color: #bd5d38;
+  background-color: #4859f1;
 }
 
 .dev-icons {
@@ -11492,4 +11492,8 @@ caption2 {
   padding-bottom: 0.5rem;
   color: #6c757d;
   text-align: left;
+}
+
+.backg{
+  background-color: #d8dcdd ;
 }
