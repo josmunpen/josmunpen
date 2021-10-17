@@ -11497,3 +11497,8 @@ caption2 {
 .backg{
   background-color: #d8dcdd ;
 }
+
+figcaption {
+  font-size: 1rem;
+  text-align: center;
+}
