@@ -604,6 +604,8 @@ progress {
   height: auto;
 }
 
+
+
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
@@ -11464,7 +11466,7 @@ section.resume-section .resume-section-content {
             clip-path: inset(0px);
   }
   .portfolio-item .caption .caption-content {
-    transition: opacity 0.25s;
+    transition: opacity 0.75s;
     margin-left: 5rem;
     margin-right: 5rem;
     margin-bottom: 5rem;
@@ -11494,11 +11496,53 @@ caption2 {
   text-align: left;
 }
 
-.backg{
-  background-color: #d8dcdd ;
-}
 
 figcaption {
   font-size: 1rem;
   text-align: center;
+}
+
+.img-opa{
+  opacity: 0.25;
+}
+
+
+.clickme {
+  background-color: #EB003B;
+  color: #FFFFFF;
+  padding: 8px 20px;
+  text-decoration:none;
+  font-weight:bold;
+  border-radius:5px;
+  cursor:pointer;
+}
+
+/* PROJECTS */
+
+
+.projects-section {
+  padding: 10rem 0;
+}
+.projects-section .featured-text {
+  padding: 2rem;
+}
+@media (min-width: 992px) {
+  .projects-section .featured-text {
+    padding: 0 0 0 2rem;
+    border-left: 0.5rem solid #64a19d;
+  }
+}
+.projects-section .project-text {
+  padding: 3rem;
+  font-size: 90%;
+}
+@media (min-width: 992px) {
+  .projects-section .project-text {
+    padding: 5rem;
+  }
+  .projects-section .project-text hr {
+    border-color: #64a19d;
+    border-width: 0.25rem;
+    width: 30%;
+  }
 }
